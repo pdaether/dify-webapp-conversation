@@ -17,7 +17,9 @@ const AppIcon: FC<AppIconProps> = ({
   className,
 }) => {
   return (
-    <span
+    <img
+      src="/z7-wappen.png"
+      alt="App Icon"
       className={classNames(
         style.appIcon,
         size !== 'medium' && style[size],
@@ -27,9 +29,7 @@ const AppIcon: FC<AppIconProps> = ({
       style={{
         background,
       }}
-    >
-      🤖
-    </span>
+    />
   )
 }
 

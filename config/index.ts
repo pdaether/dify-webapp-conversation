@@ -3,10 +3,10 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: 'Chat APP',
-  description: '',
-  copyright: '',
-  privacy_policy: '',
+  title: 'Test Chat Ionos Llama-3.1',
+  description: 'This is just a test app for internal usage.',
+  copyright: 'zeroseven',
+  privacy_policy: 'https://www.zeroseven.de/datenschutz',
   default_language: 'en',
 }
 
